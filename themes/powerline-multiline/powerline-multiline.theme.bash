@@ -45,8 +45,8 @@ THEME_PROMPT_CLOCK_FORMAT=${POWERLINE_PROMPT_CLOCK_FORMAT:="%a, %d %b %Y %H:%M:%
 IN_VIM_THEME_PROMPT_COLOR=245
 IN_VIM_THEME_PROMPT_TEXT="vim"
 
-POWERLINE_LEFT_PROMPT=${POWERLINE_LEFT_PROMPT:="scm python_venv ruby cwd"}
-POWERLINE_RIGHT_PROMPT=${POWERLINE_RIGHT_PROMPT:="in_vim clock battery user_info"}
+POWERLINE_LEFT_PROMPT=${POWERLINE_LEFT_PROMPT:="user_info scm python_venv ruby cwd"}
+POWERLINE_RIGHT_PROMPT=${POWERLINE_RIGHT_PROMPT:="in_vim clock battery"}
 
 function set_rgb_color {
   if [[ "${1}" != "-" ]]; then
